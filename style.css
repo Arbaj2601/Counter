@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #1b1b1b;
+  }
+  .but1{
+     
+      border:solid rgb(248, 246, 246) 2px;
+      width: 200px;
+      color: #51abc7;
+      text-align: center;
+      position: relative;
+      cursor: pointer;
+  }
+  .but2{
+    
+    border: rgb(238, 230, 230) 5px;
+    width: 200px;
+    color: #51abc7;
+    text-align: center;
+    border:solid rgb(248, 246, 246) 2px;
+    position: relative;
+    cursor: pointer;
+}
+P {
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 50px;
+  }
+  .but1:hover{
+      border: solid burlywood 2px;
+      background: linear-gradient(90deg, transparent, #3a86ff);
+
+  }
+  .but2:hover{
+    border: solid burlywood 2px;
+
+}
+  
